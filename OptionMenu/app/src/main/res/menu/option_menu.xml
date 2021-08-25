@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/tata"
+    android:title="Tata">
+  <menu>
+    <item
+       android:title="Tcs"
+      />
+    <item
+        android:title="Tata motors"
+      />
+    <item android:title="Tata digital"
+      />
+    <item android:title="Tata Elxsi"
+      />
+  </menu>
+</item>
+
+  <item
+      android:id="@+id/adani"
+      android:title="Adani"
+      />
+    <item
+        android:id="@+id/bajaj"
+        android:title="Bajaj"
+        />
+    <item
+        android:id="@+id/birla"
+        android:title="Birla"
+        />
+    <item
+        android:id="@+id/hdfc"
+        android:title="HDFC"
+        />
+</menu>

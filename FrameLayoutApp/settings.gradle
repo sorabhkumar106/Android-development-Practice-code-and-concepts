@@ -1,0 +1,2 @@
+rootProject.name = "Frame Layout App"
+include ':app'

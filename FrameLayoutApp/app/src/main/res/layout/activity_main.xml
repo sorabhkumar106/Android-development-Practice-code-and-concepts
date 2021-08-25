@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="257dp" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="422dp"
+            android:layout_height="480dp"
+            app:srcCompat="@drawable/img" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="110dp"
+        android:layout_height="215dp"
+        android:layout_gravity="start|center" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/img" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="110dp"
+        android:layout_height="209dp"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/img" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="110dp"
+        android:layout_height="207dp"
+        android:layout_gravity="end|center" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/img" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="381dp"
+        android:layout_height="169dp"
+        android:layout_gravity="bottom|center">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="399dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/img" />
+    </TableRow>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
